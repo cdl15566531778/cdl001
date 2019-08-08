@@ -20,4 +20,9 @@ public class UserServiceImpl implements UserService {
         List<User> list = userDao.findAll();
         return list;
     }
+
+    @Override
+    public void addUser(User user) {
+        System.out.println("添加一个用户");
+    }
 }
