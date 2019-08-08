@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.jbt.dao.UserDao">
+
+
+    <insert id="createUser" parameterType="com.jbt.model.User">
+        insert into user(name,age) values(#{name},#{age})
+    </insert>
+    <update id="updateUserById" parameterType="com.jbt.model.User">
+        update user set name=#{name},age=#{age} where id=#{id}
+    </update>
+    <delete id="deleteById" parameterType="java.lang.Long">
+        delete from user where id=#{id}
+    </delete>
+
+
+    <select id="findAll"  resultType="com.jbt.model.User">
+        select * from user
+    </select>
+
+    <select id="findOneUser" parameterType="java.lang.Long" resultType="com.jbt.model.User">
+        select * from user where id=#{id}
+    </select>
+
+</mapper>
