@@ -8,4 +8,7 @@ public interface UserService {
 
     //查询所有用户
     public List<User> findAll();
+
+    //添加用户
+    public void addUser(User user);
 }
