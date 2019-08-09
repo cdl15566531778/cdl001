@@ -22,7 +22,16 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void addUser(User user) {
-        System.out.println("添加一个用户");
+    public User findOne(Integer id) {
+        System.out.println("查询到一个用户");
+        return null;
     }
+
+    @Override
+    public int addUser(User user) {
+        System.out.println("添加成功");
+        return 0;
+    }
+
+
 }
