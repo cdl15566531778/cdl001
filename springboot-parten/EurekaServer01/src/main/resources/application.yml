@@ -1,0 +1,15 @@
+#服务器启动端口号
+server:
+  port: 8888
+#应用的名称
+spring:
+  application:
+    name: EurekaServer
+#EurekaServer配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka
+
+
+
