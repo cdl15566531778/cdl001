@@ -36,6 +36,6 @@ public interface UserService {
     public PageInfo<User> pageList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize);
 
     //添加查询接口
-    @GetMapping("/user/{username}")
+    @GetMapping("/user/search/{username}")
     public List<User> searchUser(@PathVariable("username") String username);
 }
