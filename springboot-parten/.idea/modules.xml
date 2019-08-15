@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/UserProvider01/UserProvider01.iml" filepath="$PROJECT_DIR$/UserProvider01/UserProvider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserProvider02/UserProvider02.iml" filepath="$PROJECT_DIR$/UserProvider02/UserProvider02.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserWeb01/UserWeb01.iml" filepath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-parten.iml" filepath="$PROJECT_DIR$/springboot-parten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
     </modules>
   </component>
 </project>

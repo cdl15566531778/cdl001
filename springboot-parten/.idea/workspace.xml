@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="" />
+    <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer01/EurekaServer01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer01/EurekaServer01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer02/EurekaServer02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer02/EurekaServer02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/UserBean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/UserBean.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/UserInterfaceClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/UserInterfaceClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider01/UserProvider01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider01/UserProvider01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/UserProvider02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/UserProvider02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,6 +40,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,11 +58,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1P246Iji3sAEeEnKhGcYWdJw5Tz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -62,6 +97,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -73,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServer001Start">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -139,8 +179,20 @@
         <item itemvalue="Spring Boot.UserWeb001Start" />
         <item itemvalue="Spring Boot.DemoApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServer001Start" />
+        <item itemvalue="Spring Boot.UserWeb001Start" />
+        <item itemvalue="Spring Boot.EurekaServer001Start" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,10 +218,26 @@
       <workItem from="1565682353774" duration="5436000" />
       <workItem from="1565763668757" duration="53000" />
       <workItem from="1565763744005" duration="10423000" />
+      <workItem from="1565830294236" duration="183000" />
+      <workItem from="1565830501107" duration="36000" />
+      <workItem from="1565830556013" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

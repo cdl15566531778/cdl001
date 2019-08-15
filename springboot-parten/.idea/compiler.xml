@@ -18,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="EurekaServer01" target="1.8" />
       <module name="EurekaServer02" target="1.8" />
+      <module name="springboot" target="1.8" />
       <module name="springboot-parten" target="1.8" />
       <module name="UserBean" target="1.8" />
       <module name="UserInterfaceClient" target="1.8" />
