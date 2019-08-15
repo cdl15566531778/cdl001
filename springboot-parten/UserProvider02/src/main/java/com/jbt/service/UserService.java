@@ -38,6 +38,6 @@ public interface UserService {
     public PageInfo<User> pageList(Integer pageNum, Integer pageSize);
 
     //添加查询接口
-    @GetMapping("/{username}")
+    @GetMapping("/search/{username}")
     public List<User> searchUser(String username);
 }

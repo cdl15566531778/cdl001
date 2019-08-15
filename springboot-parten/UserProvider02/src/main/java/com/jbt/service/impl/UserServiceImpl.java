@@ -93,7 +93,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> searchUser(String username) {
+    public List<User> searchUser(@PathVariable("username") String username) {
+        List<User> list = userDao.searchUser(username);
+        System.out.println(list);
         return userDao.searchUser(username);
     }
 }
