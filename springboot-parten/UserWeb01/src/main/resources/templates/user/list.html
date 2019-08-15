@@ -16,6 +16,7 @@
             <a href="toAdd" th:href="@{/manageruser/toAdd}" class="btn btn-info">add</a>
         </div>
     </div>
+
     <table class="table table-hover">
         <thead>
         <tr>
@@ -27,6 +28,10 @@
         </tr>
         </thead>
         <tbody>
+        <form th:action="@{'/manageruser/search?username='+${username}}">
+            <input th:name="username" type="text">
+            <input type="submit" th:value="提交">
+        </form>
         <tr  th:each="user : ${page}">
             <th scope="row" th:text="${user.id}">1</th>
             <td th:text="${user.name}">neo</td>

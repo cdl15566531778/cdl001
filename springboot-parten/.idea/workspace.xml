@@ -4,7 +4,11 @@
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer001Start">
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -221,7 +225,7 @@
       <workItem from="1565830501107" duration="36000" />
       <workItem from="1565830556013" duration="167000" />
       <workItem from="1565830744393" duration="770000" />
-      <workItem from="1565834673879" duration="1200000" />
+      <workItem from="1565834673879" duration="4745000" />
     </task>
     <servers />
   </component>
@@ -240,5 +244,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

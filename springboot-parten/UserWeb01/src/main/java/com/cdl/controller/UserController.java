@@ -6,7 +6,6 @@ import com.github.pagehelper.PageInfo;
 import com.jbt.bean.User;
 import com.jbt.client.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -28,7 +27,6 @@ public class UserController {
     public String findAll(Model model){
         Map map = userService.findAll();
         List<User> list = (List<User>) map.get("list");
-        System.out.println(list);
         model.addAttribute("page",list);
         model.addAttribute("ProviderVersion",map.get("ProviderVersion"));
         return "user/list";
@@ -82,5 +80,18 @@ public class UserController {
         model.addAttribute("page",list);
         model.addAttribute("ProviderVersion",map.get("ProviderVersion"));
         return "user/list";
+    }
+
+    //查询
+    @RequestMapping("/search")
+    public String searchUser(@RequestParam(value = "username") String username,Model model){
+        if("".equals(username)){
+            return "redirect:/manageruser/";
+        }else {
+            Map<String, User> map = new HashMap<>();
+            List<User> list = userService.searchUser(username);
+            model.addAttribute("page", list);
+            return "user/list";
+        }
     }
 }
