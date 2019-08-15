@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" afterDir="false" />
     </list>
@@ -74,7 +70,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -110,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
+  <component name="RunManager" selected="Spring Boot.EurekaServer001Start">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -189,7 +185,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9f41a11" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c15bcce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +221,8 @@
       <workItem from="1565830501107" duration="36000" />
       <workItem from="1565830556013" duration="167000" />
       <workItem from="1565830744393" duration="770000" />
-      <workItem from="1565834673879" duration="4745000" />
+      <workItem from="1565834673879" duration="8020000" />
+      <workItem from="1565847668476" duration="2901000" />
     </task>
     <servers />
   </component>
@@ -252,6 +249,11 @@
           <url>file://$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java</url>
           <line>98</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

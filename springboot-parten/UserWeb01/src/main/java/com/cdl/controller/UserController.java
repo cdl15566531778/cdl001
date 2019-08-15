@@ -94,4 +94,13 @@ public class UserController {
             return "user/list";
         }
     }
+
+    //下拉
+    @GetMapping("/xiala")
+    @ResponseBody
+    public List<User> findAllUsername(){
+        Map map = userService.findAll();
+        List<User> list = (List<User>) map.get("list");
+        return list;
+    }
 }
