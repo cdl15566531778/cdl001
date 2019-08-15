@@ -23,4 +23,7 @@ public interface UserDao {
     public User findOne(Integer id);
 
     public Page<User> pageList();
+
+    //搜索
+    public List<User> searchUser(String username);
 }

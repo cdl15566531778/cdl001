@@ -28,4 +28,8 @@
         select * from user where id=#{id}
     </select>
 
+    <select id="searchUser" parameterType="java.lang.String" resultType="com.jbt.bean.User">
+        select * from user where username like concat('%',#{username},'%')
+    </select>
+
 </mapper>

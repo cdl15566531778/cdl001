@@ -91,4 +91,9 @@ public class UserServiceImpl implements UserService {
         System.out.println(pageInfo);
         return pageInfo;
     }
+
+    @Override
+    public List<User> searchUser(String username) {
+        return userDao.searchUser(username);
+    }
 }

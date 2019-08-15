@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 
+import java.util.List;
 import java.util.Map;
 
 public interface UserService {
@@ -35,4 +36,8 @@ public interface UserService {
     //分页
     @GetMapping("/{pageNum}/{pageSize}")
     public PageInfo<User> pageList(Integer pageNum, Integer pageSize);
+
+    //添加查询接口
+    @GetMapping("/{username}")
+    public List<User> searchUser(String username);
 }

@@ -15,4 +15,6 @@ public interface UserService {
     //添加一个用户
     public int addUser(User user);
 
+    //nizhenshi
+
 }
