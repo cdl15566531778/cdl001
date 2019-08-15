@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer01/EurekaServer01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer01/EurekaServer01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer02/EurekaServer02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer02/EurekaServer02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserBean/UserBean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/UserBean.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/UserInterfaceClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/UserInterfaceClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider01/UserProvider01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider01/UserProvider01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/UserProvider02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/UserProvider02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,8 +178,14 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.1990265" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9f41a11" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -221,6 +218,7 @@
       <workItem from="1565830294236" duration="183000" />
       <workItem from="1565830501107" duration="36000" />
       <workItem from="1565830556013" duration="167000" />
+      <workItem from="1565830744393" duration="770000" />
     </task>
     <servers />
   </component>
