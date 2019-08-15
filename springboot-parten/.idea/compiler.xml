@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserProvider02" />
+        <module name="UserProvider01" />
+        <module name="UserWeb01" />
+        <module name="UserInterfaceClient" />
+        <module name="EurekaServer02" />
+        <module name="EurekaServer01" />
+        <module name="UserBean" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EurekaServer01" target="1.8" />
+      <module name="EurekaServer02" target="1.8" />
+      <module name="springboot-parten" target="1.8" />
+      <module name="UserBean" target="1.8" />
+      <module name="UserInterfaceClient" target="1.8" />
+      <module name="UserProvider01" target="1.8" />
+      <module name="UserProvider02" target="1.8" />
+      <module name="UserWeb01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer01" options="-parameters" />
+      <module name="EurekaServer02" options="-parameters" />
+      <module name="UserBean" options="-parameters" />
+      <module name="UserInterfaceClient" options="-parameters" />
+      <module name="UserProvider01" options="-parameters" />
+      <module name="UserProvider02" options="-parameters" />
+      <module name="UserWeb01" options="-parameters" />
+      <module name="springboot-parten" options="-parameters" />
+    </option>
+  </component>
+</project>
