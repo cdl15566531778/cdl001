@@ -45,4 +45,9 @@ public class UserServicefallback implements UserService {
     public PageInfo<User> pageList(Integer pageNum, Integer pageSize) {
         return null;
     }
+
+    @Override
+    public List<User> searchUser(String username) {
+        return null;
+    }
 }
