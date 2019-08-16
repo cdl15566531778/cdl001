@@ -50,4 +50,9 @@ public class UserServicefallback implements UserService {
     public List<User> searchUser(String username) {
         return null;
     }
+
+    @Override
+    public User findByUsername(String username) {
+        return null;
+    }
 }

@@ -38,4 +38,8 @@ public interface UserService {
     //添加查询接口
     @GetMapping("/user/search/{username}")
     public List<User> searchUser(@PathVariable("username") String username);
+
+    //登陆，根据用户名查找用户
+    @GetMapping("/user/login/{username}")
+    public User findByUsername(@PathVariable("username") String username);
 }

@@ -98,4 +98,12 @@ public class UserServiceImpl implements UserService {
         System.out.println(list);
         return userDao.searchUser(username);
     }
+
+    @Override
+    public User findByUsername(@PathVariable("username") String username) {
+        User user = userDao.findByUsername(username);
+        System.out.println(user);
+        return user;
+
+    }
 }

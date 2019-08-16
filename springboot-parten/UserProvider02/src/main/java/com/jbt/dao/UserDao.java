@@ -3,6 +3,7 @@ package com.jbt.dao;
 import com.github.pagehelper.Page;
 import com.jbt.bean.User;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
@@ -26,4 +27,7 @@ public interface UserDao {
 
     //搜索
     public List<User> searchUser(String username);
+
+    //登陆，根据用户名查找用户
+    public User findByUsername(String username);
 }

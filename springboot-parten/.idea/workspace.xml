@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/security/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserWeb01/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,20 +85,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaTest\springboot-parten\UserWeb01\src\main\resources\templates\user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cdl.security" />
+      <recent name="com.cdl.config" />
+      <recent name="com.cdl.controller" />
+      <recent name="com.jbt.bean" />
+      <recent name="com.cdl.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\githup\cdl001\springboot-parten\UserWeb01\src\main\resources" />
       <recent name="D:\ideaTest\springboot-parten\UserBean\src\main\java\com.cdl" />
       <recent name="D:\ideaTest\springboot-parten\UserInterfaceClient\src\main\java\com\jbt\client" />
       <recent name="D:\ideaTest\springboot-parten\UserProvider02\src\main\resources" />
       <recent name="D:\ideaTest\springboot-parten\UserProvider02\src\main\java" />
-      <recent name="D:\ideaTest\springboot-parten" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jbt.bean" />
-      <recent name="com.cdl.model" />
-      <recent name="com" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaTest\springboot-parten\UserWeb01\src\main\resources\templates\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer001Start">
+  <component name="RunManager" selected="Spring Boot.UserWeb001Start">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -185,7 +199,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c15bcce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5669051d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +236,8 @@
       <workItem from="1565830556013" duration="167000" />
       <workItem from="1565830744393" duration="770000" />
       <workItem from="1565834673879" duration="8020000" />
-      <workItem from="1565847668476" duration="2901000" />
+      <workItem from="1565847668476" duration="6609000" />
+      <workItem from="1565943312429" duration="4182000" />
     </task>
     <servers />
   </component>
@@ -241,21 +256,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
