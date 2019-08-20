@@ -38,7 +38,7 @@ public interface UserService {
     @GetMapping("/search/{username}")
     public List<User> searchUser(String username);
 
-    //登陆，根据用户名查找用户
+    //登陆，根据用户名查找用户dsfdsfs
     @GetMapping("/login/{username}")
     public User findByUsername(String username);
 }

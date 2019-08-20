@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/security/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/UserWeb01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserWeb01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/resources/templates/user/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserWeb01/src/main/resources" />
+    <property name="last_opened_file_path" value="F:/git/jbtcloud-vehicle-bean" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserWeb001Start">
+  <component name="RunManager" selected="Spring Boot.EurekaServer002Start">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -199,7 +186,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5669051d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2102e0c2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +224,8 @@
       <workItem from="1565830744393" duration="770000" />
       <workItem from="1565834673879" duration="8020000" />
       <workItem from="1565847668476" duration="6609000" />
-      <workItem from="1565943312429" duration="4182000" />
+      <workItem from="1565943312429" duration="6872000" />
+      <workItem from="1566175221970" duration="7342000" />
     </task>
     <servers />
   </component>
