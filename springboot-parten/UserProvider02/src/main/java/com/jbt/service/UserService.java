@@ -3,6 +3,7 @@ package com.jbt.service;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageInfo;
+import com.jbt.bean.TbItemCat;
 import com.jbt.bean.User;
 import org.springframework.web.bind.annotation.*;
 
@@ -41,4 +42,14 @@ public interface UserService {
     //登陆，根据用户名查找用户dsfdsfs
     @GetMapping("/login/{username}")
     public User findByUsername(String username);
+
+    //查询所有一级分类
+    @PostMapping(value = "/search/category1")
+    public List<TbItemCat> findCategory1(TbItemCat itemCat);
+
+//    //查询分类
+//    @GetMapping("/search/category/")
+//    public TbItemCat findCategory(TbItemCat itemCat);
+
+
 }

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c94517-c860-49cc-9722-0bcd5faa80bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/TbItemCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean/TbItemCatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/dao/TbItemCatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/mapper/TbItemCatMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserInterfaceClient/src/main/java/com/jbt/client/service/impl/UserServicefallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProvider02/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProvider02/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserWeb01/src/main/java/com/cdl/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/git/jbtcloud-vehicle-bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserBean/src/main/java/com/jbt/bean" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,8 +82,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaTest\springboot-parten\UserWeb01\src\main\resources\templates\user" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\githup\cdl001\springboot-parten\UserBean\src\main\java\com\jbt\bean" />
+      <recent name="F:\githup\cdl001\springboot-parten\UserProvider02\src\main\resources\mapper" />
+      <recent name="F:\githup\cdl001\springboot-parten\UserProvider02\src\main\java\com\jbt\dao" />
+      <recent name="F:\githup\cdl001\springboot-parten\UserWeb01\src\main\resources" />
+      <recent name="D:\ideaTest\springboot-parten\UserBean\src\main\java\com.cdl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cdl.security" />
@@ -82,12 +96,8 @@
       <recent name="com.jbt.bean" />
       <recent name="com.cdl.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\githup\cdl001\springboot-parten\UserWeb01\src\main\resources" />
-      <recent name="D:\ideaTest\springboot-parten\UserBean\src\main\java\com.cdl" />
-      <recent name="D:\ideaTest\springboot-parten\UserInterfaceClient\src\main\java\com\jbt\client" />
-      <recent name="D:\ideaTest\springboot-parten\UserProvider02\src\main\resources" />
-      <recent name="D:\ideaTest\springboot-parten\UserProvider02\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaTest\springboot-parten\UserWeb01\src\main\resources\templates\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer002Start">
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="UserProvider02" />
       <extension name="coverage">
@@ -170,8 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserWeb001Start" />
         <item itemvalue="Spring Boot.DemoApplication (1)" />
+        <item itemvalue="Spring Boot.UserWeb001Start" />
         <item itemvalue="Spring Boot.EurekaServer001Start" />
         <item itemvalue="Spring Boot.UserWeb001Start" />
         <item itemvalue="Spring Boot.EurekaServer001Start" />
@@ -181,12 +191,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.1990265" />
+        <option name="contentProportion" value="0.15684153" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2102e0c2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4bcc0b4d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +235,8 @@
       <workItem from="1565834673879" duration="8020000" />
       <workItem from="1565847668476" duration="6609000" />
       <workItem from="1565943312429" duration="6872000" />
-      <workItem from="1566175221970" duration="7342000" />
+      <workItem from="1566175221970" duration="28114000" />
+      <workItem from="1566780288847" duration="9115000" />
     </task>
     <servers />
   </component>
@@ -244,5 +255,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UserProvider02/src/main/java/com/jbt/service/impl/UserServiceImpl.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

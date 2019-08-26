@@ -2,6 +2,7 @@ package com.jbt.client.service.impl;
 
 
 import com.github.pagehelper.PageInfo;
+import com.jbt.bean.TbItemCat;
 import com.jbt.bean.User;
 import com.jbt.client.service.UserService;
 import org.springframework.stereotype.Component;
@@ -55,4 +56,11 @@ public class UserServicefallback implements UserService {
     public User findByUsername(String username) {
         return null;
     }
+
+    @Override
+    public List<TbItemCat> findCategory1(TbItemCat itemCat) {
+        return null;
+    }
+
+
 }

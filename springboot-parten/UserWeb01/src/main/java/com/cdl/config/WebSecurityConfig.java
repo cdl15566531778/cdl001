@@ -39,7 +39,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception { //配置策略
         http.csrf().disable();
         http.authorizeRequests().
-                antMatchers("/static/**")
+                antMatchers("/static/**","/manageruser/search/category1")
                 .permitAll()
                 .anyRequest()
                 .authenticated().

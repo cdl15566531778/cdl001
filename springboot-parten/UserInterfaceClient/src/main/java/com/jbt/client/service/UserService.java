@@ -2,6 +2,7 @@ package com.jbt.client.service;
 
 
 import com.github.pagehelper.PageInfo;
+import com.jbt.bean.TbItemCat;
 import com.jbt.bean.User;
 import com.jbt.client.service.impl.UserServicefallback;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -42,4 +43,12 @@ public interface UserService {
     //登陆，根据用户名查找用户
     @GetMapping("/user/login/{username}")
     public User findByUsername(@PathVariable("username") String username);
+
+    //查询所有一级分类
+    @PostMapping("/user/search/category1")
+    public List<TbItemCat> findCategory1(@RequestBody TbItemCat itemCat);
+//
+//    //查询分类
+//    @GetMapping("/user/search/category")
+//    public TbItemCat findCategory(@RequestBody TbItemCat itemCat);
 }

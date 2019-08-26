@@ -3,6 +3,7 @@ package com.cdl.controller;
 
 
 import com.github.pagehelper.PageInfo;
+import com.jbt.bean.TbItemCat;
 import com.jbt.bean.User;
 import com.jbt.client.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,5 +103,23 @@ public class UserController {
         Map map = userService.findAll();
         List<User> list = (List<User>) map.get("list");
         return list;
+    }
+
+
+
+    //查询所有一级分类
+    @RequestMapping("/search/category1")
+    @ResponseBody
+    public List<TbItemCat> findCategory1(@RequestBody TbItemCat itemCat){
+        List<TbItemCat> category1 = userService.findCategory1(itemCat);
+        return category1;
+    }
+
+    //查询所有2级分类
+    @GetMapping("/search/category2")
+    @ResponseBody
+    public List<TbItemCat> findCategory2(@RequestBody TbItemCat itemCat){
+        List<TbItemCat> category2 = userService.findCategory1(itemCat);
+        return category2;
     }
 }

@@ -3,9 +3,13 @@ package com.jbt.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.jbt.bean.TbItemCat;
+import com.jbt.bean.TbItemCatExample;
 import com.jbt.bean.User;
+import com.jbt.dao.TbItemCatMapper;
 import com.jbt.dao.UserDao;
 import com.jbt.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -19,6 +23,9 @@ public class UserServiceImpl implements UserService {
 
     @Resource
     private UserDao userDao;
+
+    @Autowired
+    private TbItemCatMapper itemCatMapper;
 
     @Override
     public Map findAll() {
@@ -106,4 +113,17 @@ public class UserServiceImpl implements UserService {
         return user;
 
     }
+
+    //查询所有一级分类
+    @Override
+    public List<TbItemCat> findCategory1(@RequestBody TbItemCat itemCat) {
+
+        TbItemCatExample itemCatExample = new TbItemCatExample();
+        TbItemCatExample.Criteria criteria = itemCatExample.createCriteria();
+        criteria.andParentIdEqualTo(itemCat.getParentId());
+        List<TbItemCat> Category1 = itemCatMapper.selectByExample(itemCatExample);
+        return Category1;
+    }
+
+
 }
