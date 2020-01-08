@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jbt.dao.VinMapper">
+
+    <resultMap id="BaseResultMap" type="com.jbt.model.Vin">
+        <result column="id" property="id"/>
+        <result column="vehicle_model_code" property="vehicleModelCode"/>
+        <result column="vehicle_level" property="vehicleLevel"/>
+        <result column="vin" property="vin"/>
+        <result column="total_mass" property="totalMass"/>
+        <result column="vehicle_series_name" property="vehicleSeriesName"/>
+        <result column="brand" property="brand"/>
+        <result column="fuel_oil_type" property="fuelOilType"/>
+        <result column="speed_limit" property="speedLimit"/>
+        <result column="displacement" property="displacement"/>
+        <result column="rated_power" property="ratedPower"/>
+        <result column="gearbox_type" property="gearboxType"/>
+        <result column="seat_total" property="seatTotal"/>
+        <result column="wheel_base" property="wheelBase"/>
+        <result column="engine_type" property="engineType"/>
+        <result column="engine_company" property="engineCompany"/>
+        <result column="vehicle_length" property="vehicleLength"/>
+        <result column="vehicle_high" property="vehicleHigh"/>
+        <result column="vehicle_wide" property="vehicleWide"/>
+        <result column="vehicle_weight" property="vehicleWeight"/>
+        <result column="axle_total" property="axleTotal"/>
+        <result column="tyre" property="tyre"/>
+        <result column="front_suspension_high" property="frontSuspensionHigh"/>
+        <result column="behind_suspension_high" property="behindSuspensionHigh"/>
+        <result column="front_wheel_track" property="frontWheelTrack"/>
+        <result column="behind_wheel_track" property="behindWheelTrack"/>
+        <result column="product_name" property="productName"/>
+        <result column="drive_tye" property="driveTye"/>
+        <result column="consumption_city" property="consumptionCity"/>
+        <result column="consumption_suburb" property="consumptionSuburb"/>
+        <result column="consumption_synthetic" property="consumptionSynthetic"/>
+        <result column="create_time" property="createTime"/>
+        <result column="wmi" property="wmi"/>
+        <result column="brand_id" property="brandId"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,
+        vehicle_model_code,
+        vehicle_level,
+        vin,
+        total_mass,
+        vehicle_series_name,
+        brand,
+        fuel_oil_type,
+        speed_limit,
+        displacement,
+        rated_power,
+        gearbox_type,
+        seat_total,
+        wheel_base,
+        engine_type,
+        engine_company,
+        vehicle_length,
+        vehicle_high,
+        vehicle_wide,
+        vehicle_weight,
+        axle_total,
+        tyre,
+        front_suspension_high,
+        behind_suspension_high,
+        front_wheel_track,
+        behind_wheel_track,
+        product_name,
+        drive_tye,
+        consumption_city,
+        consumption_suburb,
+        consumption_synthetic,
+        create_time,
+        wmi,
+        brand_id
+    </sql>
+
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id" parameterType="com.jbt.model.Vin">
+        INSERT INTO vehicle_feature_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test='null != vehicleModelCode'>
+                vehicle_model_code,
+            </if>
+            <if test='null != vehicleLevel'>
+                vehicle_level,
+            </if>
+            <if test='null != vin'>
+                vin,
+            </if>
+            <if test='null != totalMass'>
+                total_mass,
+            </if>
+            <if test='null != vehicleSeriesName'>
+                vehicle_series_name,
+            </if>
+            <if test='null != brand'>
+                brand,
+            </if>
+            <if test='null != fuelOilType'>
+                fuel_oil_type,
+            </if>
+            <if test='null != speedLimit'>
+                speed_limit,
+            </if>
+            <if test='null != displacement'>
+                displacement,
+            </if>
+            <if test='null != ratedPower'>
+                rated_power,
+            </if>
+            <if test='null != gearboxType'>
+                gearbox_type,
+            </if>
+            <if test='null != seatTotal'>
+                seat_total,
+            </if>
+            <if test='null != wheelBase'>
+                wheel_base,
+            </if>
+            <if test='null != engineType'>
+                engine_type,
+            </if>
+            <if test='null != engineCompany'>
+                engine_company,
+            </if>
+            <if test='null != vehicleLength'>
+                vehicle_length,
+            </if>
+            <if test='null != vehicleHigh'>
+                vehicle_high,
+            </if>
+            <if test='null != vehicleWide'>
+                vehicle_wide,
+            </if>
+            <if test='null != vehicleWeight'>
+                vehicle_weight,
+            </if>
+            <if test='null != axleTotal'>
+                axle_total,
+            </if>
+            <if test='null != tyre'>
+                tyre,
+            </if>
+            <if test='null != frontSuspensionHigh'>
+                front_suspension_high,
+            </if>
+            <if test='null != behindSuspensionHigh'>
+                behind_suspension_high,
+            </if>
+            <if test='null != frontWheelTrack'>
+                front_wheel_track,
+            </if>
+            <if test='null != behindWheelTrack'>
+                behind_wheel_track,
+            </if>
+            <if test='null != productName'>
+                product_name,
+            </if>
+            <if test='null != driveTye'>
+                drive_tye,
+            </if>
+            <if test='null != consumptionCity'>
+                consumption_city,
+            </if>
+            <if test='null != consumptionSuburb'>
+                consumption_suburb,
+            </if>
+            <if test='null != consumptionSynthetic'>
+                consumption_synthetic,
+            </if>
+            <if test='null != createTime'>
+                create_time,
+            </if>
+            <if test='null != wmi'>
+                wmi,
+            </if>
+            <if test='null != brandId'>
+                brand_id
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test='null != vehicleModelCode'>
+                #{vehicleModelCode},
+            </if>
+            <if test='null != vehicleLevel'>
+                #{vehicleLevel},
+            </if>
+            <if test='null != vin'>
+                #{vin},
+            </if>
+            <if test='null != totalMass'>
+                #{totalMass},
+            </if>
+            <if test='null != vehicleSeriesName'>
+                #{vehicleSeriesName},
+            </if>
+            <if test='null != brand'>
+                #{brand},
+            </if>
+            <if test='null != fuelOilType'>
+                #{fuelOilType},
+            </if>
+            <if test='null != speedLimit'>
+                #{speedLimit},
+            </if>
+            <if test='null != displacement'>
+                #{displacement},
+            </if>
+            <if test='null != ratedPower'>
+                #{ratedPower},
+            </if>
+            <if test='null != gearboxType'>
+                #{gearboxType},
+            </if>
+            <if test='null != seatTotal'>
+                #{seatTotal},
+            </if>
+            <if test='null != wheelBase'>
+                #{wheelBase},
+            </if>
+            <if test='null != engineType'>
+                #{engineType},
+            </if>
+            <if test='null != engineCompany'>
+                #{engineCompany},
+            </if>
+            <if test='null != vehicleLength'>
+                #{vehicleLength},
+            </if>
+            <if test='null != vehicleHigh'>
+                #{vehicleHigh},
+            </if>
+            <if test='null != vehicleWide'>
+                #{vehicleWide},
+            </if>
+            <if test='null != vehicleWeight'>
+                #{vehicleWeight},
+            </if>
+            <if test='null != axleTotal'>
+                #{axleTotal},
+            </if>
+            <if test='null != tyre'>
+                #{tyre},
+            </if>
+            <if test='null != frontSuspensionHigh'>
+                #{frontSuspensionHigh},
+            </if>
+            <if test='null != behindSuspensionHigh'>
+                #{behindSuspensionHigh},
+            </if>
+            <if test='null != frontWheelTrack'>
+                #{frontWheelTrack},
+            </if>
+            <if test='null != behindWheelTrack'>
+                #{behindWheelTrack},
+            </if>
+            <if test='null != productName'>
+                #{productName},
+            </if>
+            <if test='null != driveTye'>
+                #{driveTye},
+            </if>
+            <if test='null != consumptionCity'>
+                #{consumptionCity},
+            </if>
+            <if test='null != consumptionSuburb'>
+                #{consumptionSuburb},
+            </if>
+            <if test='null != consumptionSynthetic'>
+                #{consumptionSynthetic},
+            </if>
+            <if test='null != createTime'>
+                #{createTime},
+            </if>
+            <if test='null != wmi'>
+                #{wmi},
+            </if>
+            <if test='null != brandId'>
+                #{brandId}
+            </if>
+        </trim>
+    </insert>
+
+    <delete id="delete">
+        DELETE FROM vehicle_feature_info
+        WHERE id = #{id}
+    </delete>
+
+    <update id="update" parameterType="com.jbt.model.Vin">
+        UPDATE vehicle_feature_info
+        <set>
+            <if test='null != vehicleModelCode'>vehicle_model_code = #{vehicleModelCode},</if>
+            <if test='null != vehicleLevel'>vehicle_level = #{vehicleLevel},</if>
+            <if test='null != vin'>vin = #{vin},</if>
+            <if test='null != totalMass'>total_mass = #{totalMass},</if>
+            <if test='null != vehicleSeriesName'>vehicle_series_name = #{vehicleSeriesName},</if>
+            <if test='null != brand'>brand = #{brand},</if>
+            <if test='null != fuelOilType'>fuel_oil_type = #{fuelOilType},</if>
+            <if test='null != speedLimit'>speed_limit = #{speedLimit},</if>
+            <if test='null != displacement'>displacement = #{displacement},</if>
+            <if test='null != ratedPower'>rated_power = #{ratedPower},</if>
+            <if test='null != gearboxType'>gearbox_type = #{gearboxType},</if>
+            <if test='null != seatTotal'>seat_total = #{seatTotal},</if>
+            <if test='null != wheelBase'>wheel_base = #{wheelBase},</if>
+            <if test='null != engineType'>engine_type = #{engineType},</if>
+            <if test='null != engineCompany'>engine_company = #{engineCompany},</if>
+            <if test='null != vehicleLength'>vehicle_length = #{vehicleLength},</if>
+            <if test='null != vehicleHigh'>vehicle_high = #{vehicleHigh},</if>
+            <if test='null != vehicleWide'>vehicle_wide = #{vehicleWide},</if>
+            <if test='null != vehicleWeight'>vehicle_weight = #{vehicleWeight},</if>
+            <if test='null != axleTotal'>axle_total = #{axleTotal},</if>
+            <if test='null != tyre'>tyre = #{tyre},</if>
+            <if test='null != frontSuspensionHigh'>front_suspension_high = #{frontSuspensionHigh},</if>
+            <if test='null != behindSuspensionHigh'>behind_suspension_high = #{behindSuspensionHigh},</if>
+            <if test='null != frontWheelTrack'>front_wheel_track = #{frontWheelTrack},</if>
+            <if test='null != behindWheelTrack'>behind_wheel_track = #{behindWheelTrack},</if>
+            <if test='null != productName'>product_name = #{productName},</if>
+            <if test='null != driveTye'>drive_tye = #{driveTye},</if>
+            <if test='null != consumptionCity'>consumption_city = #{consumptionCity},</if>
+            <if test='null != consumptionSuburb'>consumption_suburb = #{consumptionSuburb},</if>
+            <if test='null != consumptionSynthetic'>consumption_synthetic = #{consumptionSynthetic},</if>
+            <if test='null != createTime'>create_time = #{createTime},</if>
+            <if test='null != wmi'>wmi = #{wmi},</if>
+            <if test='null != brandId'>brand_id = #{brandId}</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+
+    <select id="load" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM vehicle_feature_info
+        WHERE id = #{id}
+    </select>
+
+    <select id="pageList" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM vehicle_feature_info
+        LIMIT #{offset}, #{pageSize}
+    </select>
+
+    <select id="pageListCount" resultType="java.lang.Integer">
+        SELECT count(1)
+        FROM vehicle_feature_info
+    </select>
+
+</mapper>
